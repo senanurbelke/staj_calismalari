@@ -10,7 +10,6 @@ body{
 header{
     color: aliceblue;
     background-color:#4338CA;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +26,7 @@ header ul{
     text-decoration: none;
     color: aliceblue;
     font-weight: 700;
-    transition: 0.7;
+    transition: 0.7s;
     font-size: 1.3rem;
 }
 header a:hover{
