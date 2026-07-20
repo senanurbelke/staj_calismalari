@@ -49,32 +49,3 @@ body{
 .social-icons{
     margin-right:12px;
 }
-
-.hero img{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.hero{
-    position: relative;
-}
-.prev{
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.next{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.prev,
-.next{
-    font-size: 35px;
-    background: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
