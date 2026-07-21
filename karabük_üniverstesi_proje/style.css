@@ -102,9 +102,9 @@ body{
    
 }
 .right-card{
-    flex: 1.2;
+    flex: 1.8;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
     border: 1px solid #e0e0e0;
     padding: 15px;
     border-radius: 4px;
@@ -137,8 +137,8 @@ body{
     gap: 30px;
 }
 .card-content img{
-     width: 320px;
-     height: auto;
+     width: 380px;
+     height: 320px;
 }
 .content-text{
     flex: 1;
@@ -148,6 +148,7 @@ body{
 .content-text a{
     text-decoration: none;
     color: #007bff;
+     line-height:1.8em;
 }
 .content-text ul{
     list-style: none;
