@@ -218,3 +218,45 @@ body{
 .card i{
     font-size:45px ;
 }
+
+.announcements{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    padding:50px 200px;
+    background-color: #1F5B5F;
+    color: white;
+   
+}
+
+.column-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 4em;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.column-header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.column-header-right i{
+    cursor: pointer;
+}
+
+.column-header h3{
+    font-size:1.3em ;
+}
+    
+.column-header-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+.announcement-column ul{
+    padding-top: 20px;
+    line-height: 1.9em;
+    font-size: 1.1em;
+}
