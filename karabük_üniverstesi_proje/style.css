@@ -260,3 +260,59 @@ body{
     line-height: 1.9em;
     font-size: 1.1em;
 }
+
+
+.news{
+    width: 80%;
+    margin: 80px auto;
+}
+.news-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid red ;
+    margin-bottom: 40px;
+}
+.news-header h2{
+    color: red;
+}
+.news-header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.news-header-right i{
+    color: black;
+    
+}
+.news-header-right a{
+    text-decoration: none;
+    color: black;
+}
+.news-header-right a:hover{
+    color: red;
+}
+.news-slider{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.news-cards{
+    display: flex;
+    gap: 20px;
+}
+.news-card{
+    width: 400px;
+    height: 340px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 1px solid #ddd;
+    line-height:1.6;
+}
+
+.news-card img{
+    width: 100%;
+    display: block;
+    padding-bottom: 30px;
+
+}
